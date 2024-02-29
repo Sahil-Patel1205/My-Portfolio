@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    height: 2850px;
+    width: auto;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #03396c;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.nav-left{
+    justify-self: flex-start;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 720px;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.left-sec{
+    padding-top: 20px;
+    height: 50vh;
+    width: 30%;
+}
+.right-sec{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 25%;
+}
+.myphoto{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url("myphoto2.jpg");
+    background-size: cover;
+    border: 3px solid rgba(73, 18, 255, 0.571);
+}
+.myphoto:hover{
+    border-radius: 4% 20%;
+    transition: ease-in-out 0.2s;
+    transition-delay: 0.2s;
+}
+.upper-up{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    padding-left: 25px;
+}
+.upper h1{
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.797);
+}
+.multiText{
+    font-size: 3.5rem;
+    font-weight: 1000;
+    font-family: 'Inter', sans-serif;
+    line-height: 4rem;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    color: #03396c;
+    text-transform: capitalize;
+}
+
+.lower{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.connect-logo{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.linkedin{
+    background-image: url("linkedin.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.linkedin:hover{
+    height: 25px;
+    width: 25px;
+    transition: 0.2s;
+}
+.github{
+    position: relative;
+    bottom: 3px;
+    background-image: url("github.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.github:hover{
+    height: 30px;
+    width: 30px;
+    transition: 0.2s;
+}
+.second-section{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.left{
+    position: relative;
+    left: -80px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.line{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.345);
+    font-weight: lighter;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+.img{
+    height: 30px;
+    width: 30px;
+}
+
+.HTML{
+    background-image: url("html.png");
+    background-size: 30px 30px;
+}
+.CSS{
+    background-image: url("css.png");
+    background-size: 30px 30px;
+}
+.JS{
+    background-image: url("js.png");
+    background-size: 30px 30px;
+}
+.Python{
+    background-image: url("python2.png");
+    background-size: 30px 30px;
+}
+.React{
+    background-image: url("react.png");
+    background-size: 30px 30px;
+}
+
+.about-section{
+    width: 100%;
+    height: 650px;
+    padding-top: 100px;
+    
+}
+.about-upper{
+    display: flex;
+    justify-content: center;   
+}
+.about-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 400px;
+}
+.photo{
+    background-image: url("art.png");
+    background-size: cover;
+    width: 588px;
+    height: 341px;
+}
+.about-right{
+    width: 40%;
+    height: 400px;
+}
+.about-lower{
+    height: 100px;
+    width: 70%;
+    margin-left: 200px;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: rgb(64, 64, 64);
+}
+.up{
+    padding-top: 100px;
+    padding-left: 70px;
+    font-weight: 800px;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    color: rgb(15, 0, 57);
+}
+.sp{
+    position: relative;
+    color: #0400cc;
+    top: -56px;
+    left: 110px;
+    padding: 0;
+}
+.sp:hover{
+    font-size: 3.1rem;
+    transition: ease-in-out 0.3s;
+    text-decoration: underline;
+}
+.dn{
+    position: relative;
+    color: rgb(15, 0, 57);
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    padding-left: 70px;
+    font-weight: 800;
+    top: -50px;
+}
+
+.p-tag, .s-tag{
+    margin-top: 50px;
+    margin-left: 190px;
+    font-size: 2rem;
+    font-family: 'Inter';
+    color: #002ac2;
+}
+.p-line{
+    margin-left: 190px;
+    color: rgb(133, 133, 133);
+    font-family: 'Poppins';
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.project-content{
+    margin-left: 150px;
+    height: 260px;
+    width: 1260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.box{
+    height: 243px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    border-radius: 10px;
+    height: 250px;
+    width: 430px;
+    transition: ease-in-out 0.2s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.695);
+}
+.box1{
+    background-color: #FF3358;
+}
+.box2{
+    background-color: #587DFF;
+}
+.box3{
+    background-color: #FFD600;
+}
+.box-content{
+    height: 85%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+}
+.box1-logo{
+    background-image: url('python.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 5px 42%;
+}
+.box2-logo{
+    background-image: url('coding.png');
+    background-size: cover;
+    height: 50px;
+    width: 88px;
+    margin: 5px 36%;
+}
+.box3-logo{
+    background-image: url('brush.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 5px 42%;
+}
+.box-tag{
+    color: white;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 2rem;
+}
+.box-tagline{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    font-size: .8rem;
+}
+.box3-tag{
+    color: black;
+    font-weight: 700;
+}
+.service-content{
+    width: 1200px;
+    height: 70vh;
+    margin-left: 190px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 375px 375px 375px;
+    grid-template-rows: 200px 200px;
+    gap: 10px 40px;
+}
+.s-text{
+    font-family: 'Poppins';
+    font-size: .8rem;
+    font-weight: 600;
+    padding-top: 10px;
+    color: rgb(74, 74, 74);
+}
+.sp-heading{
+    font-family: 'Inter';
+    color: #FF005C;
+    font-size: 1.2rem;
+}
+.sb-heading{
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    color: #194bff;
+}
+.s:hover{
+    padding: 25px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.541);
+    transition: ease-in-out .3s;
+}
+
+.info-box{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.info-content{
+    height: 100%;
+    width: 20%;
+}
+.info-photo{
+    background-image: url('myphoto-2.png');
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    border: 2px solid blue;
+    margin: 0px 30%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.info-headtext{
+    font-family: 'Inter';
+    color: #FF005C;
+    text-align: center;
+    font-size: 2rem;
+}
+.info-text{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: .8rem;
+    text-align: center;
+    color: rgb(114, 114, 114);
+}
+.getintouch-section{
+    width: 100vw;
+    height: auto;
+    padding-left: 170px;
+}
+.getintouch{
+    font-family: 'Inter';
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.getintouch-section p{
+    font-family: 'Poppins';
+    font-size: .8rem;
+    font-weight: 700;
+    color: rgb(108, 108, 108);
+}
+
+.detail-section{
+    margin-top: 30px;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.detail-content{
+    height: 100%;
+    width: 60%;
+    padding: 30px 30px;
+}
+.detail-upper{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-up-left{
+    height: 100%;
+    width: 48%;
+    box-shadow: 0px 5px 10px rgba(96, 96, 96, 0.306);
+    border-radius: 50px;
+}
+.detail-up-right{
+    height: 100%;
+    width: 48%;
+    box-shadow: 0px 5px 10px rgba(96, 96, 96, 0.323);
+    border-radius: 50px;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    color: rgb(82, 82, 82);
+}
+input:hover{
+    border: 2px solid black;
+}
+.detail-subject{
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px rgba(96, 96, 96, 0.29);
+}
+.detail-message{
+    height: 70px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px rgba(96, 96, 96, 0.29);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.detail-submit, button{
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px rgba(96, 96, 96, 0.29);
+    background-color: #FF005C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #9f003a;
+}
+
+.socialmedia{
+    height: 38px;
+    width: 250px;
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 30px 30px 30px 30px;
+    gap: 0px 15px;
+    margin-bottom: 500px;
+    margin-top: 80px;
+    margin-left: 350px;
+}
+
+.photos{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.s-insta{
+    background-image: url('insta.png');
+}
+.s-twitter{
+    background-image: url('twitter.png');
+}
+.s-linkedin{
+    background-image: url('linkedin.png');
+}
+.s-github{
+    background-image: url('github.png');
+}
+.photos:hover{
+    width: 110%;
+    height: 110%;
+    transition: ease-in-out 0.2s;
+}
